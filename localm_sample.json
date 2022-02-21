@@ -1,0 +1,20 @@
+{
+	"root_path": "/home/www/localhost",
+	"proyects":{
+		"base": {
+			"descripcion":"Proyecto base, incluye MariaDB,Nginx Proxy",
+			"directory": "",
+			"composer_file": "docker-compose.yml"
+		},
+		"wordpresstest": {
+			"descripcion":"Instalacion basica de Wordpress",
+			"directory": "wordpresstest.com",
+			"composer_file": "docker/docker-compose.yml"
+		},
+		"html_only": {
+			"descripcion":"Ejemplo de HTML Unico",
+			"directory": "html_only.com",
+			"composer_file": "docker/docker-compose.yml"
+		}
+	}
+}
